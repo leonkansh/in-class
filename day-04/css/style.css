@@ -1,5 +1,20 @@
-.intro {
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 
+.intro {
+    position: relative;
+    width: 70vw;
+    left: 100px;
+    top: 100px;
+    background: rgba(0, 0, 255, .25);
+    margin-bottom: 5px;
+}
+
+#zen-supporting {
+    background: rgba(255, 0, 0, .25);
+    margin-top: 100px;
+    margin-right: 30vw;
 }
 
 header {
@@ -11,11 +26,14 @@ header {
 }
 
 .preamble {
-
+    position: absolute;
+    top: 25;
 }
 
 .sidebar {
-
+    position: fixed;
+    top: 10px;
+    right: 10px;
 }
 
 #zen-supporting {
@@ -24,6 +42,16 @@ header {
 
 .explanation, .particpation, .benefits, .requirements {
 
+}
+
+.benefits {
+    display: fixed;
+    float: right;
+    max-width: 400px;
+    margin: 0px 25px 25px 25px;
+    padding: 2em;
+    background: rgba(0,0,255,.25);
+    border: 10px solid aqua;
 }
 
 footer {
