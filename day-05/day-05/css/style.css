@@ -3,29 +3,22 @@
 	background: chartreuse;
 }
 
-header {
+@media (max-width: 600px) {
+	.intro h1 {
+		font-size: 1.5em;
+		background: yellow;
+	}
 }
 
-.summary {
-
+@media (min-width: 1200px) {
+	.intro h1 {
+		background: purple;
+		color: white;
+	}
 }
 
-.preamble {
-
-}
-
-.sidebar {
-
-}
-
-#zen-supporting {
-
-}
-
-.explanation, .particpation, .benefits, .requirements {
-
-}
-
-footer {
-
+@media (min-width: 1300px) {
+	.intro h1 {
+		font-size: 5em;
+	}
 }
